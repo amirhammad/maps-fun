@@ -1,0 +1,11 @@
+ionic cordova build android
+./scripts/contains.sh 
+#READ_PHONE_STATE present
+
+lets patch it.
+./scripts/patch.sh
+ionic cordova build android
+
+./helpers/contains.sh
+#all is well
+
