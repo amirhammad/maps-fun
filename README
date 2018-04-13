@@ -1,11 +1,19 @@
+1. setup base
+
 ionic cordova build android
-./scripts/contains.sh 
+./scripts/contains.sh
+
 #READ_PHONE_STATE present
 
-lets patch it.
+2. lets patch it.
+
 ./scripts/patch.sh
 ionic cordova build android
 
-./helpers/contains.sh
+
+3. verify
+
+`./scripts/contains.sh`
+
 #all is well
 
